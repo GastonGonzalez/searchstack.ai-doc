@@ -1,5 +1,8 @@
 # SearchStack.ai
 
+This document provides a step-by-step guide to install a full local development stack of
+SearchStack.ai. These instructions are for Linux, but in general, work well for Mac OS X.
+
 ## Recommended Development Workspace
 
 1. Create a parent directory for all the SearchStack.ai projects. This directory can be located 
@@ -18,11 +21,15 @@
 
         $ cd $SEARCHSTACK_AI_HOME
 
-
 ## Development Tool Chain
 
-TODO
+Install the following development tools.
+
+1. Java JDK 8 (OpenJDK or Oracle JDK)
+2. [Maven 3.5+](http://maven.apache.org/)
+3. [Apache Ant](https://ant.apache.org/)
 
 ## Setup Guides
 
-1. [Document Processing](setup/document-processor.md)
+1. [Automation Project](setup/01-automation.md)
+2. [Document Processing](setup/02-document-processor.md)
